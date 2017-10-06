@@ -15,8 +15,6 @@ $(function() {
     }
 
     OCTOPRINT_VIEWMODELS.push([
-        FixednavViewModel,
-        [ /* "loginStateViewModel", "settingsViewModel" */ ],
-        [ /* ... */ ]
+        FixednavViewModel
     ]);
 });
