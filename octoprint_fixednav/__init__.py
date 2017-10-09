@@ -13,7 +13,7 @@ class FixednavPlugin(octoprint.plugin.AssetPlugin):
 	def get_update_information(self):
 		return dict(
 			fixednav=dict(
-				displayName="FixedNav",
+				displayName="Fixed Nav Bar",
 				displayVersion=self._plugin_version,
 
 				type="github_release",
@@ -25,7 +25,7 @@ class FixednavPlugin(octoprint.plugin.AssetPlugin):
 			)
 		)
 
-__plugin_name__ = "FixedNav"
+__plugin_name__ = "Fixed Nav Bar"
 
 def __plugin_load__():
 	global __plugin_implementation__
