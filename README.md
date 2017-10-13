@@ -1,4 +1,4 @@
-# FixedNav - Sticky your navbar today!
+# Sticky Nav Bar - Sticky your navbar today!
 
 Stickies OctoPrint's navbar to the top of the browser window so when you scroll down, the navbar will always* be visible.
 
