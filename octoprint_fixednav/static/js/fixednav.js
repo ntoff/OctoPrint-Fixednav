@@ -10,7 +10,7 @@ $(function() {
 
         if ($("#touch body").length ==0 ) {
             $("div.page-container > #navbar").eq(0).removeClass("navbar-static-top").addClass("navbar-fixed-top");
-            $("body").css({ "padding-top": "40px" })
+            $("body").css({ "padding-top": "40px" });
         }
     }
 
@@ -18,3 +18,4 @@ $(function() {
         FixednavViewModel
     ]);
 });
+
